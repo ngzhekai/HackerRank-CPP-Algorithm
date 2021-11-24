@@ -14,9 +14,8 @@ vector<string> split(const string &);
  *  1. INTEGER n
  *  2. INTEGER_ARRAY ar
  */
-
+/****** MY SOLUTION ******/
 int sockMerchant(int n, vector<int> ar) {
-    
     int pair = 0;
     //sort the vector ar in ascending order;
     sort(ar.begin(),ar.end());
@@ -33,6 +32,7 @@ int sockMerchant(int n, vector<int> ar) {
     }
     return pair;
 }
+/****** MY SOLUTION ******/
 
 int main()
 {
